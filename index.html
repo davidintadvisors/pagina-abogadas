@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tu Firma de Inmigración</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome para iconos -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1 class="logo">[LOGO AQUÍ]</h1>
+      <nav>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul id="nav-list">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="inicio">
+    <div class="container">
+      <h2>Abogada Ana Gabriela Añeses</h2>
+      <p><strong>Defendiendo tus derechos. Hablamos tu idioma.</strong></p>
+    </div>
+  </section>
+
+  <section class="servicios" id="servicios">
+    <div class="container">
+      <h3>Servicios</h3>
+      <div class="servicio-item">
+        <h4>Servicio número 1</h4>
+        <p>Texto de ejemplo para mostrar cómo se ve visualmente</p>
+      </div>
+      <div class="servicio-item">
+        <h4>Servicio número 2</h4>
+        <p>Texto de ejemplo para mostrar cómo se ve visualmente</p>
+      </div>
+      <div class="servicio-item">
+        <h4>Servicio número 3</h4>
+        <p>Texto de ejemplo para mostrar cómo se ve visualmente</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="nosotros" id="nosotros">
+    <div class="container">
+      <h3>Sobre Nosotros</h3>
+      <p>Texto de ejemplo para mostrar cómo se ve visualmente</p>
+    </div>
+  </section>
+
+  <section class="contacto" id="contacto">
+    <div class="container">
+      <h3>Contacto</h3>
+      <p>Dirección:</p>
+      <p>Teléfono:</p>
+      <p>Email:</p>
+    </div>
+  </section>
+
+ <footer>
+  <div class="container">
+    <p>&copy; 2025 Tu Firma de Inmigración. Todos los derechos reservados.</p>
+    <div class="social-icons">
+      <a href="https://wa.me/50361981611" target="_blank" aria-label="WhatsApp">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp" />
+      </a>
+      <a href="https://facebook.com/" target="_blank" aria-label="Facebook">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook" />
+      </a>
+      <a href="https://instagram.com/" target="_blank" aria-label="Instagram">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navList = document.getElementById('nav-list');
+    hamburger.addEventListener('click', () => {
+      navList.classList.toggle('show');
+    });
+  </script>
+
+</body>
+</html>
